@@ -15,7 +15,6 @@ node() {
 
 
     // SonarQube plugin for Gradle requires Java 1.8
-    withEnv(['JAVA_HOME=/usr/java/jdk1.8.0_92/', "VERSION=${buildVersion}", "PATH=/app/maven/apache-maven-3.6.0/bin:"+env.PATH]) {
     stage('compile') {
             try {
                 sh 'mvn compile'
@@ -34,6 +33,5 @@ node() {
         }
 
 */
-    }
 }
 
