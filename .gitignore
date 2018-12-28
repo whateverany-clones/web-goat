@@ -46,3 +46,13 @@ webgoat-lessons/vulnerable-components/dependency-reduced-pom.xml
 **/.vscode/*
 
 /.sonatype
+
+### BABL
+.git/
+.gradle/
+build/
+.gradle/
+CalibrationResults*/
+.*~
+*/build/*
+Checkmarx/
