@@ -8,7 +8,6 @@
  */
 @Library('JenkinsLibrary@master')
 
-node() {
     stage('checkout') {
         checkout scm
     }
@@ -33,5 +32,3 @@ node() {
         }
 
 */
-}
-
