@@ -8,7 +8,7 @@
  */
 @Library('JenkinsLibrary@master')
 
-node('linux&&java8') {
+node() {
     stage('checkout') {
         checkout scm
     }
